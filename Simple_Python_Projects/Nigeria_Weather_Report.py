@@ -19,7 +19,7 @@ air_quality_response = requests.get(f"https://api.openweathermap.org/data/2.5/ai
 air_quality_data = air_quality_response.json()
 
 # Define the email variable
-aola99009 = "aolaxxxx@gmail.com"
+aolaxxxx = "aolaxxxx@gmail.com"
 
 weather = weather_data["weather"][0]["main"]
 windspeed = weather_data["wind"]["speed"]
