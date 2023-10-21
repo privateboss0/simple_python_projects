@@ -5,7 +5,7 @@ def main():
   root = Tk()
   root.title("Digital Clock")
 
-  # Create the time label.
+  # Create the time label. winks!
   time_label = Label(root, font=("TimesNewRoman", 76, "bold italic"))
   time_label.pack()
 
