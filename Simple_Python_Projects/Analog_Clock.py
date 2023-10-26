@@ -28,7 +28,7 @@ def draw_clock_face():
     face.pendown()
     face.circle(150)
 
-    # Draw the clock numbers and balls
+    # Draw the clock numbers and balls.. Not what you are thinking! :)
     for i in range(12):
         hour = 12 if i == 0 else i
         face.penup()
@@ -40,7 +40,7 @@ def draw_clock_face():
         face.setheading(180)
         face.penup()
         face.forward(25)
-        face.color("pink")
+        face.color("black")
         face.write(str(hour), align="center", font=("Arial", 10, "normal"),)
 
 # Function to draw clock hands
