@@ -43,7 +43,8 @@ def draw_clock_face():
         face.color("pink")
         face.write(str(hour), align="center", font=("Arial", 10, "normal"),)
 
-# Function to draw clock handsdef draw_clock_hands():
+# Function to draw clock hands
+def draw_clock_hands():
     current_time = time.localtime()
     # Clear previous hands
     hands.clear()
@@ -91,7 +92,6 @@ def update_clock():
 # Main program
 if __name__ == "__main__":
     
-      # Call the function to draw the clock face
+    # Call the function to draw the clock face
     update_clock()  # Call the function to draw the clock hands
-    # Close the window when clicked
-    screen.exitonclick()
+    screen.exitonclick() # Close the window when clicked
