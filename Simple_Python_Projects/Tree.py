@@ -5,7 +5,7 @@ t.speed(0)
 t.left(90)
 
 def branch(length, t):
-    if length < 5:
+    if length < 6:
         return
 
     t.forward(length)
