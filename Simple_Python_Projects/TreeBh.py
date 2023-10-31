@@ -18,5 +18,6 @@ def branch(length, t):
 
 branch(100, t)
 
+#Ensure the program remains open after construction
 turtle.Screen().exitonclick()
 turtle.Screen().mainloop()
