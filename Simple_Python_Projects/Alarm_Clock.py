@@ -37,7 +37,6 @@ class AlarmClock:
         self.root.mainloop()
 
     def play_alarm(self):
-        # Play the alarm sound and display the alarm message.
         playsound("Alarm-Slow-A3.mp3")
         Alarm_label3.config(text="Alarm Sound Playing>>>>")
         alarm_message = self.message_entry2.get()
@@ -58,10 +57,8 @@ class AlarmClock:
             self.play_alarm()
 
     def pop_up_message(self, alarm_time):
-        # Display a pop-up message with the alarm time.
         Alarm_label3.config(text="The Alarm is ON....")
         messagebox.showinfo("Alarm Clock", f"The Alarm time is: {alarm_time}")
-
 
 if __name__ == "__main__":
     AlarmClock()
