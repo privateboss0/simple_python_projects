@@ -58,7 +58,7 @@ class AlarmClock:
 
     def pop_up_message(self, alarm_time):
         Alarm_label3.config(text="The Alarm is ON....")
-        messagebox.showinfo("Alarm Clock", f"The Alarm time is: {alarm_time}")
+        messagebox.showinfo("Alarm Clock", f"The Alarm is set to ring at: {alarm_time}")
 
 if __name__ == "__main__":
     AlarmClock()
