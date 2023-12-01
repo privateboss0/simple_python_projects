@@ -39,7 +39,7 @@ else:
     air_quality_index = None
 
 # Create the email message
-message = MIMEText(f"The weather in {CITY}, {COUNTRY} is {weather}. The windspeed is {windspeed} m/s. The humidity is {humidity}%. The temperature is {temperature_in_celsius} degrees Celsius. The air quality index is {air_quality_index}.")
+message = MIMEText(f"Hi Leo, The weather in {CITY}, {COUNTRY} is {weather}. The windspeed is {windspeed} m/s. The humidity is {humidity}%. The temperature is {temperature_in_celsius} degrees Celsius. The air quality index is {air_quality_index}.")
 message["Subject"] = "Weather Report"
 message["From"] = aolaxxxx
 message["To"] = aolaxxxx
