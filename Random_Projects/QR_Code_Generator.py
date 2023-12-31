@@ -6,4 +6,4 @@ link = "https://www.youtube.com/watch?v=3ji4PcqIBEg"
 # Generate and save QR code
 image = qrcode.make
 
-qrcode.make(link).save("YTCode.png")
+qrcode.make(link).save("Youtubelink.png")
